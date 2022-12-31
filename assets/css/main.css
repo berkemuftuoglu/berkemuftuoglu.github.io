@@ -1,6 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
-
+@import url("font-mfizz.css");
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
@@ -2396,23 +2396,18 @@ input, select, textarea {
 				font-variant: normal;
 				text-rendering: auto;
 				line-height: 1;
-				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
-				border-radius: 100%;
-				color: #ffffff;
 				display: block;
 				height: 2.5em;
 				left: 0;
-				line-height: 2.5em;
+				line-height: 0.5em;
 				position: absolute;
 				text-align: center;
 				top: 0;
-				width: 2.5em;
+				width: 0.5em;
 			}
 
 /* Icons */
