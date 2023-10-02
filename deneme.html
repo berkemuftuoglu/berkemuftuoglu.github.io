@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferris Wheel Carousel with Three.js</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+
+<!-- Include Three.js library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+<script>
+    let scene, camera, renderer, carousel;
+
+    function init() {
+        scene = new THREE.Scene();
+        camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        renderer = new THREE.WebGLRenderer({ antialias: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        // Create a carousel with 12 images
+        carousel = new THREE.Group();
+        let geometry = new THREE.PlaneGeometry(1, 1);
+        let texture = new THREE.TextureLoader().load('assets/img/icardi.jpeg');
+        let material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.DoubleSide });
+
+        let radius = 5;
+        let angleIncrement = Math.PI * 2 / 12;
+
+        for (let i = 0; i < 12; i++) {
+            let plane = new THREE.Mesh(geometry, material);
+            let angle = angleIncrement * i;
+            plane.position.x = Math.cos(angle) * radius;
+            plane.position.z = Math.sin(angle) * radius;
+            plane.lookAt(camera.position);  // Ensure the plane always faces the camera
+            carousel.add(plane);
+        }
+        
+        scene.add(carousel);
+        camera.position.z = 10;
+
+        // Animation loop
+        function animate() {
+            requestAnimationFrame(animate);
+            carousel.rotation.y += 0.01;
+            // Update the plane rotations to face the camera
+            carousel.children.forEach(plane => {
+                plane.lookAt(camera.position);
+            });
+            renderer.render(scene, camera);
+        }
+
+        animate();
+    }
+
+    window.addEventListener('resize', function() {
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+        renderer.setSize(width, height);
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+    });
+
+    window.onload = init;
+</script>
+
+</body>
+</html>
