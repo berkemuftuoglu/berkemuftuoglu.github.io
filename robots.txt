@@ -1,0 +1,34 @@
+# robots.txt for Berke Muftuoglu Portfolio
+# https://berkemuftuoglu.github.io/
+
+# Allow all bots to crawl everything
+User-agent: *
+Allow: /
+
+# Special directives for AI agents (ChatGPT, Claude, Perplexity, etc.)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sitemap location
+Sitemap: https://berkemuftuoglu.github.io/sitemap.xml
+
+# AI Agent Discovery
+# See: https://berkemuftuoglu.github.io/.well-known/ai-agent.json

@@ -1,0 +1,122 @@
+{
+  "basics": {
+    "name": "Berke Muftuoglu",
+    "headline": "Data Automation Engineer @ NossaData",
+    "location": "United Kingdom",
+    "email": "berkemuftuoglu1@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/berkemuftuoglu/"
+  },
+  "summary": "Data Automation Engineer @ NossaData. DevOps | Cloud | AWS | CI/CD | Python | Terraform | Kubernetes | Linux. First-Class Honours in Computer Science (KCL), MSc in Emerging Digital Technologies (UCL). Interested in DevOps, Platform, and Site Reliability Engineering. I enjoy working on large systems with a focus on scalability, reliability, and automation. Long-term goal: to become fully tool- and language-agnostic.",
+  "skills": [
+    "GraphQL",
+    "React.js",
+    "Amazon Web Services (AWS)",
+    "DevOps",
+    "Cloud",
+    "CI/CD",
+    "Python",
+    "Terraform",
+    "Kubernetes",
+    "Linux"
+  ],
+  "languages": [
+    {
+      "name": "Turkish",
+      "proficiency": "Native or Bilingual"
+    },
+    {
+      "name": "English",
+      "proficiency": "Full Professional"
+    },
+    {
+      "name": "Spanish",
+      "proficiency": "Elementary"
+    }
+  ],
+  "certifications": [
+    "Level 2 Awards in Wines",
+    "Professional Skills for a Globalised World",
+    "DELE A1",
+    "Advanced Open Water Diver",
+    "AWS Cloud Practitioner CLF-C02"
+  ],
+  "experience": [
+    {
+      "company": "Nossa Data",
+      "title": "Data Automation Engineer",
+      "start": "2025-04",
+      "end": null,
+      "duration": "11 months",
+      "location": "London Area, United Kingdom",
+      "description": "I lead data automation processes."
+    },
+    {
+      "company": "NetraScale",
+      "title": "Student Researcher",
+      "start": "2024-03",
+      "end": "2024-10",
+      "duration": "8 months",
+      "location": "London Area, United Kingdom",
+      "description": "I researched optimizing Federated Learning within a Zero Trust framework as part of UCL IXN. I contributed to scalable continuous data integration and secure data flow design to improve global model efficiency and performance in distributed environments."
+    },
+    {
+      "company": "UCL",
+      "title": "Postgraduate Teaching Assistant",
+      "start": "2023-10",
+      "end": "2024-04",
+      "duration": "7 months",
+      "location": "London, England, United Kingdom",
+      "description": "Supported Object-Oriented Programming and Algorithms teaching, including grading, feedback, code reviews, and interactive Jupyter labs for data structures and algorithm design."
+    },
+    {
+      "company": "King's College London",
+      "title": "Teaching Assistant",
+      "start": "2022-09",
+      "end": "2024-04",
+      "duration": "1 year 8 months",
+      "location": "London, England, United Kingdom",
+      "description": "Supported Programming Languages and Paradigms with Haskell and functional programming, including practical sessions, grading, and invigilation."
+    },
+    {
+      "company": "BtcTurk",
+      "title": "DevOps Engineer",
+      "start": "2023-06",
+      "end": "2023-08",
+      "duration": "3 months",
+      "location": "",
+      "description": "Worked across hybrid cloud and on-prem environments. Built IaC with Terraform and Ansible, configured CI/CD in Azure DevOps, automated tasks with shell scripting, used Docker, managed Azure resources, and implemented Velero backup/disaster recovery for Kubernetes."
+    },
+    {
+      "company": "Getir",
+      "title": "Software Engineer",
+      "start": "2022-05",
+      "end": "2022-07",
+      "duration": "3 months",
+      "location": "London, England, United Kingdom",
+      "description": "Contributed to .NET 6 migration, SQL query optimization, and RabbitMQ integration across microservices; worked in Agile sprints applying SOLID principles."
+    }
+  ],
+  "education": [
+    {
+      "institution": "UCL",
+      "degree": "Master of Science - MS",
+      "field": "Emerging Digital Technologies",
+      "start": "2023-09",
+      "end": "2024-11"
+    },
+    {
+      "institution": "King's College London",
+      "degree": "Bachelor of Science - BS",
+      "field": "Computer Science",
+      "start": "2020-09",
+      "end": "2023-05"
+    },
+    {
+      "institution": "The Koc School",
+      "degree": "International Baccalaureate and Turkish Diploma (Dual Diploma)",
+      "field": "",
+      "start": "2016",
+      "end": "2020"
+    }
+  ]
+}
