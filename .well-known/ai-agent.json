@@ -9,159 +9,56 @@
     "location": "London, United Kingdom",
     "email": "berkemuftuoglu1@gmail.com",
     "linkedin": "https://www.linkedin.com/in/berkemuftuoglu/",
-    "github": "https://github.com/berkemuftuoglu"
+    "github": "https://github.com/berkemuftuoglu",
+    "website": "https://berkemuftuoglu.com"
   },
-  "primaryActions": [
-    {
-      "action": "contact_for_job_opportunities",
-      "method": "email",
-      "target": "berkemuftuoglu1@gmail.com",
-      "context": "Open to DevOps, Platform Engineering, SRE, Software Engineering, and Data Engineering roles",
-      "preferredTopics": [
-        "DevOps positions",
-        "Platform Engineering roles",
-        "Site Reliability Engineering (SRE) opportunities",
-        "Software Engineering positions",
-        "Data Engineering roles",
-        "Cloud Infrastructure positions",
-        "CI/CD and automation roles"
-      ]
-    },
-    {
-      "action": "extract_professional_information",
-      "structuredDataLocation": "https://berkemuftuoglu.github.io/",
-      "format": "JSON-LD (Schema.org Person)",
-      "sections": [
-        "experience",
-        "education",
-        "skills",
-        "contact"
-      ]
-    }
-  ],
   "expertise": {
-    "primarySkills": [
-      "Python",
-      "AWS",
-      "Kubernetes",
-      "Docker",
-      "Terraform",
-      "Ansible",
-      "CI/CD",
-      "DevOps"
-    ],
-    "languages": ["Python", "TypeScript", "Java", "Bash", "Go", "SQL"],
-    "platforms": ["AWS", "Azure", "Linux"],
-    "tools": [
-      "Kubernetes",
-      "Docker",
-      "Terraform",
-      "Ansible",
-      "Azure DevOps",
-      "GitHub Actions",
-      "GitLab CI",
-      "Jenkins",
-      "Git",
-      "Datadog",
-      "PostgreSQL"
-    ],
-    "domains": [
-      "Data Automation",
-      "Infrastructure as Code",
-      "Cloud Infrastructure",
-      "CI/CD Pipelines",
-      "Platform Engineering",
-      "Site Reliability Engineering",
-      "DevOps",
-      "Distributed Systems"
-    ]
+    "languages": ["Go", "Python", "TypeScript", "Zig", "C++", "C#", "Bash"],
+    "infrastructure": ["AWS", "Azure", "Terraform", "Ansible", "Docker", "Kubernetes", "Helm"],
+    "cicd": ["GitHub Actions", "Azure DevOps", "Jenkins"],
+    "observability": ["Prometheus", "Grafana"],
+    "databases": ["PostgreSQL", "MySQL", "MongoDB", "Redis"]
   },
   "experience": [
     {
       "company": "Nossa Data",
       "role": "Data Automation Engineer",
-      "period": "Apr 2025 - Present",
-      "location": "London, UK",
-      "companyContext": "Nossa Data is a sustainability-focused data platform that processes ESG (Environmental, Social, Governance) reports and sustainability data at scale.",
-      "keyAchievement": "Automated the processing of thousands of ESG files via Python/TypeScript pipelines, reducing manual work by over 80%",
-      "technologies": ["Python", "TypeScript", "Data Pipelines", "ESG Automation"]
+      "period": "2025 - Present",
+      "keyAchievement": "Automated processing of thousands of ESG files, reducing manual work by 80%"
     },
     {
       "company": "NetraScale",
-      "role": "Student Researcher",
-      "period": "Mar 2024 - Oct 2024",
-      "location": "London, UK",
-      "companyContext": "NetraScale is a UCL Industry Exchange Network partner focused on scalable and secure distributed machine learning workflows.",
-      "keyAchievement": "Researched Federated Learning within Zero Trust frameworks, contributing to scalable and secure distributed ML workflows",
-      "technologies": ["Federated Learning", "Zero Trust", "Research"]
+      "role": "Researcher",
+      "period": "2024",
+      "keyAchievement": "Federated Learning hyperparameter optimisation within Zero Trust frameworks"
     },
     {
       "company": "BtcTurk",
       "role": "DevOps Engineer",
-      "period": "Jun 2023 - Aug 2023",
-      "location": "Remote",
-      "companyContext": "BtcTurk is Turkey's largest cryptocurrency exchange platform.",
-      "keyAchievement": "Set up CI/CD pipelines via Azure DevOps, cutting deployment time and reducing integration issues. Implemented Kubernetes backup and disaster recovery with Velero.",
-      "technologies": ["Terraform", "Ansible", "Kubernetes", "Azure DevOps", "Velero"]
+      "period": "2023",
+      "keyAchievement": "Infrastructure as Code with Terraform and Ansible, Kubernetes backup and disaster recovery"
     },
     {
       "company": "Getir",
       "role": "Software Engineer",
-      "period": "May 2022 - Jul 2022",
-      "location": "London, UK",
-      "companyContext": "Getir is a rapid grocery delivery platform operating across multiple countries.",
-      "keyAchievement": "Contributed to .NET 6 migration, SQL optimization, and RabbitMQ integration in microservices",
-      "technologies": [".NET 6", "RabbitMQ", "Microservices"]
+      "period": "2022",
+      "keyAchievement": "Migrated reconciliation system from Java to .NET C# on live production, 1M+ records, zero downtime"
     }
   ],
   "education": [
     {
       "degree": "MSc Emerging Digital Technologies",
-      "institution": "University College London (UCL)",
-      "grade": "Merit",
-      "period": "Sep 2023 - Nov 2024",
-      "focus": ["Distributed Systems", "Cloud Infrastructure", "Zero Trust Security"]
+      "institution": "University College London (UCL)"
     },
     {
-      "degree": "BSc Computer Science",
-      "institution": "King's College London (KCL)",
-      "grade": "First-Class Honours",
-      "period": "Sep 2020 - May 2023",
-      "focus": ["Algorithms", "Software Engineering", "Functional Programming"]
+      "degree": "BSc Computer Science (First-Class Honours)",
+      "institution": "King's College London"
     }
   ],
-  "careerGoals": {
-    "targetRoles": [
-      "DevOps Engineer",
-      "Platform Engineer",
-      "Site Reliability Engineer (SRE)",
-      "Software Engineer",
-      "Data Engineer"
-    ],
-    "interests": [
-      "Improving delivery speed",
-      "System resilience",
-      "Operational clarity",
-      "Infrastructure automation",
-      "Cloud-native architectures"
-    ],
-    "philosophy": "Values performance, reliability, and maintainable systems. Obsessed with tests and numbers. Tool-agnostic and language-agnostic, focusing on solving problems with the right technology."
-  },
-  "contentSummary": {
-    "professionalBackground": "Data Automation Engineer at Nossa Data with software engineering background and hands-on DevOps experience. Specializes in cloud platforms (AWS, Azure), CI/CD pipelines, and Infrastructure as Code. Graduate of UCL (MSc, Merit) and King's College London (BSc, First-Class Honours).",
-    "coreExpertise": "Python, AWS, Kubernetes, Docker, Terraform, Ansible, CI/CD automation, Azure DevOps, data pipelines, Infrastructure as Code, Linux, and monitoring.",
-    "notableAchievements": [
-      "Automated processing of thousands of ESG files, reducing manual work by 80%",
-      "Built Infrastructure as Code for cryptocurrency exchange with Terraform and Ansible",
-      "Implemented Kubernetes backup and disaster recovery with Velero",
-      "Set up CI/CD pipelines reducing deployment time"
-    ]
-  },
   "machineReadableFormats": {
-    "jsonLd": "https://berkemuftuoglu.github.io/ (embedded in HTML head)",
-    "sitemap": "https://berkemuftuoglu.github.io/sitemap.xml",
-    "robotsTxt": "https://berkemuftuoglu.github.io/robots.txt"
+    "jsonLd": "https://berkemuftuoglu.com/ (embedded in HTML head)",
+    "sitemap": "https://berkemuftuoglu.com/sitemap.xml",
+    "robotsTxt": "https://berkemuftuoglu.com/robots.txt"
   },
-  "lastUpdated": "2026-02-13",
-  "generatedBy": "Portfolio SEO/AEO/GEO Optimization"
+  "lastUpdated": "2026-02-24"
 }
